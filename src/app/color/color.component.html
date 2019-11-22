@@ -1,0 +1,8 @@
+<div [style.backgroundColor]="color">
+  <p>color works!</p>
+</div>
+<input type="color" class="form-control" #colorinput (change)="changecolor(colorinput.value)">
+<br><br>
+<button class="btn btn-sm btn-success"
+        (click)="rest()"> default
+</button>

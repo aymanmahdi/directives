@@ -1,0 +1,19 @@
+<p [ngStyle]="{
+'color' : color,
+'fontSize' : size + 'px',
+   fontFamily : font
+}">ng-style works!</p>
+<div class="row">
+  <div class="col-md-4">
+    <input type="text" class="form-control" [(ngModel)]="color">
+  </div>
+  <div class="col-md-4">
+    <input type="number" class="form-control" [(ngModel)]="size">
+  </div>
+  <div class="col-md-4">
+    <select name="a" id="1" [(ngModel)]="font">
+      <option value="garmond">garmond</option>
+      <option value="arial">arial</option>
+    </select>
+  </div>
+</div>
